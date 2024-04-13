@@ -75,6 +75,7 @@ rm -rf node_modules
 npm install
 
 # For android
+rm -rf android/app/.cxx
 (cd android && ./gradlew clean)
 
 # For iOS
